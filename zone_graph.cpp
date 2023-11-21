@@ -763,9 +763,15 @@ void cFlood::input(int argc, char* argv[]) {
 		normalize = stoi(HMFNorm);
 
 		nThreads = atoi(argv[2]);
-		nFold = atoi(argv[3]);
-		batch_size = atoi(argv[4]);
-		dynamic_batch_size = atoi(argv[5]);
+
+		// these can be passed as arguments if required; default values are provided below
+		// nFold = atoi(argv[3]);
+		// batch_size = atoi(argv[4]);
+		// dynamic_batch_size = atoi(argv[5]);
+
+		nFold = 0;
+		batch_size = 1;
+		dynamic_batch_size = 1;
 	}
 	else {
 		std::cout << "Invalid Arguments. Please provide config file path, num threads, num threads intra zone and batch size!";

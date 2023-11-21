@@ -1,0 +1,1 @@
+./zone_graph ./Data/Input/TC1/TC1_config.txt 32 # 32 is the desired number of threads to run the parallel code
