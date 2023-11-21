@@ -10,5 +10,6 @@ Instructions for running the code:
 
 1. Git clone the project
 2. Download the dataset from ---------------------- and put it in the same folder where you clone the code.
-3. Compile the code using provided Makefile: make
-4. Run the code for TC1: ./Scripts/run_tc1.sh
+3. Compile the code using the provided Makefile: make
+4. Run the code for TC1: ./run_tc1.sh
+5. Output data are saved as raster files in ./Data/Results/TC1/Zone_Graph_v1/
