@@ -21,9 +21,9 @@ Baselines Data:
 For HMT and HMCT-PP, the model predictions are saved as raster files (.tif) and put in the folders HMT_Predictions and HMCT-PP_Predictions respectively for all 4 test regions.  
 For FCN, the model weights are put in the folder FCN_Weights_for_each_region. For R1, R2 and R3 we used single weight to get predictions for the entire test region. For R4, since the region is very large, we used 2 different model weights to get the predictions for different portion of the test region as shown below:
 
-R4[4000:12402, 3000:10032] --> We used **R4_Weight_A.pth** to get prediction on this portion of R4
-R4[7000:12402, 10032:20064] --> We used **R4_Weight_B.pth** to get prediction on this portion of R4
-R4[9000:12402, 20064:30096] --> We used **R4_Weight_A.pth** to get prediction on this portion of R4
-R4[12402:14402, 10032:20064] --> We used **R4_Weight_A.pth** to get prediction on this portion of R4
-R4[12402:18402, 20064:30096] --> We used **R4_Weight_B.pth** to get prediction on this portion of R4
-R4[12402:19402, 30096:37096] --> We used **R4_Weight_B.pth** to get prediction on this portion of R4
+R4[4000:12402, 3000:10032] --> We used **R4_Weight_A.pth** to get prediction on this portion of R4  
+R4[7000:12402, 10032:20064] --> We used **R4_Weight_B.pth** to get prediction on this portion of R4  
+R4[9000:12402, 20064:30096] --> We used **R4_Weight_A.pth** to get prediction on this portion of R4  
+R4[12402:14402, 10032:20064] --> We used **R4_Weight_A.pth** to get prediction on this portion of R4  
+R4[12402:18402, 20064:30096] --> We used **R4_Weight_B.pth** to get prediction on this portion of R4  
+R4[12402:19402, 30096:37096] --> We used **R4_Weight_B.pth** to get prediction on this portion of R4  
