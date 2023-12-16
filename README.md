@@ -14,8 +14,8 @@ Instructions for running the code:
 4. Run the code for TC1: ./run_tc1.sh
 5. Output data are saved as raster files in ./Data/Results/TC1/Zone_Graph_v1/
 
-Link to Ground Truth Labels: https://drive.google.com/drive/folders/1JR2g_9X8rVTl7UE93W6ITxSvrid03s5P?usp=sharing  
-Link to Baselines Data: https://drive.google.com/drive/folders/1QAgC8J7n2Qa2qrX8Rj1AWVYlkKaDBq3B?usp=sharing  
+**Link to Ground Truth Labels:** https://drive.google.com/drive/folders/1JR2g_9X8rVTl7UE93W6ITxSvrid03s5P?usp=sharing  
+**Link to Baselines Data:** https://drive.google.com/drive/folders/1QAgC8J7n2Qa2qrX8Rj1AWVYlkKaDBq3B?usp=sharing  
 
 **Baselines Data:**
 For HMT and HMCT-PP, the model predictions are saved as raster files (.tif) and put in the folders HMT_Predictions and HMCT-PP_Predictions respectively for all 4 test regions. 
