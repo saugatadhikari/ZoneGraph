@@ -19,7 +19,7 @@ Instructions for running the code:
 **Link to Baselines Data:** https://drive.google.com/drive/folders/1QAgC8J7n2Qa2qrX8Rj1AWVYlkKaDBq3B?usp=sharing  
 
 **Baselines Data:**
-For HMT and HMCT-PP, the model predictions are saved as raster files (.tif) and put in the folders HMT_Predictions and HMCT-PP_Predictions respectively for all 4 test regions. 
+For U-Net, HMT and HMCT-PP, the model predictions are saved as raster files (.tif) and put in the folders U-Net_Predictions, HMT_Predictions and HMCT-PP_Predictions respectively for all 4 test regions.
    
 For FCN, the model weights are put in the folder FCN_Weights_for_each_region. For R1, R2 and R3 we used single weight to get predictions for the entire test region. For R4, since the region is very large, we used 2 different model weights to get the predictions for different portion of the test region such that there is not overlap between training and testing data as shown below. We used default model parameters while training the model.
 
